@@ -3,35 +3,20 @@
 <head>
   <title>WEB1 - HTML</title>
   <meta charset='utf-8'>
-  <style>
-    a {
-      color: green;
-      text-decoration: underline;
-    }
-    h1 {
-      font-size: 45px;
-      text-align: center;
-    }
-    li {
-      font-size: 24px;
-    }
-    #active {
-      color: red;
-    }
-    .saw {
-      color: gray;
-    }
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <h1><a href="index.html" style="color:black">Seyoung's Favorite</a></h1>
-  <ol>
-    <li><a href="1.html" id="active">Sushi</a></li>
-    <li><a href="2.html">Pizza</a></li>
-    <li><a href="3.html">Soft-tofu soup</a></li>
-  <ol>
-  <br><br>
-  <h2> <font color="red">초밥 - 주원초밥</font></h2>
-  <img src=sushi.jpeg width=600px>
+  <div id="grid">
+    <ol>
+      <li><a href="1.html" id="active">Sushi</a></li>
+      <li><a href="2.html">Pizza</a></li>
+      <li><a href="3.html">Soft-tofu soup</a></li>
+    </ol>
+    <div id="article">
+      <h2> <font color="red">초밥 - 주원초밥</font></h2>
+      <p><img src=sushi.jpeg width=500px></p>
+    </div>
+  </div>
 </body>
 </html>
